@@ -16,7 +16,7 @@ print(type(name)) # type function is use to known the datatype of variable
 # Performed manually by the programmer.
 # Used when automatic conversion is not possible or when you want to force a conversion.
 
-#print(f"Hello {name},you are {age} years old!")
+#print(f"Hello {name},you are {age} years old!") 
 
 # Take two numbers as input from the user and print their product, and quotient sum, difference
 Num1=int(input("enter first Number"))
@@ -38,6 +38,7 @@ avg=(num1+num2+num3)/3
 print(avg)
 
 # '''Python follows the order of operations (operator precedence):
+# ()
 # ** (Exponent)
 # *, /, //, % (Multiplication, Division, etc.)
 # +, - (Addition, Subtraction)'''
@@ -48,6 +49,7 @@ y=9
 print(x,y)
 x,y=y,x
 print("x:",x,"y:",y)
+
 
 # Take the radius ( ) as user input and print the area
 r=int(input("enter radius"))
